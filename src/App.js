@@ -1,6 +1,7 @@
 import { Stack } from '@mui/system';
 import React from 'react';
-import MuiCard from './components/MuiCard';
+// import MuiCard from './components/MuiCard';
+// import MuiLinks from './components/MuiLinks';
 // import MuiAutoComplete from './components/MuiAutoComplete';
 // import MuiRating from './components/MuiRating';
 // import MuiSelect from './components/MuiSelect';
@@ -11,7 +12,22 @@ import MuiCard from './components/MuiCard';
 // import MuiCheckbox from './components/MuiCheckbox';
 // import MuiSwitch from './components/MuiSwitch';
 // import MuiLayOut from './components/MuiLayout';
-import MuiAccordion from './components/MuiAccordion';
+// import MuiAccordion from './components/MuiAccordion';
+// import MuiImageListAndGrid from './components/MuiImageListAndGrid';
+// import MuiNavBar from './components/MuiNavBar';
+// import MuiBreadcrumb from './components/MuiBreadcrumb';
+// import MuiDrawer from './components/MuiDrawer';
+// import MuiSpeenDile from './components/MuiSpeenDile';
+// import MuiBottomNav from './components/MuiBottomNav';
+// import MuiAvatar from './components/MuiAvatar';
+// import MuiBadg from './components/MuiBadg';
+// import MuiList from './components/MuiList';
+// import MuiChip from './components/MuiChip';
+// import MuiToolTip from './components/MuiToolTip';
+import { Box } from '@mui/material';
+// import MuiAlert from './components/MuiAlert';
+import MuiSnackBar from './components/MuiSnackBar';
+
 
 
 
@@ -31,11 +47,25 @@ const App = () => {
   <MuiAutoComplete />
   <MuiLayOut />
   <MuiCard />
+  <MuiAccordion />
+  <MuiImageListAndGrid />
+  <MuiLinks />
+  <MuiNavBar />
+  <MuiBreadcrumb />
+  <MuiDrawer />
+  <MuiSpeenDile />
+  <MuiBottomNav />
+  <MuiAvatar />
+  <MuiBadg />
+  <MuiList />
+  <MuiChip />
+  <MuiToolTip />
+  <MuiAlert />
   */
   return (
-    <Stack m='auto' justifyContent='center' maxWidth='1536px'>
-      <MuiAccordion />
-    </Stack>
+    <Box >
+      <MuiSnackBar />
+    </Box>
   );
 };
 
