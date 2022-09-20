@@ -27,6 +27,8 @@ import React from 'react';
 import { Box } from '@mui/material';
 // import MuiAlert from './components/MuiAlert';
 import MuiSnackBar from './components/MuiSnackBar';
+import DateRangPiker from './components/DateRangPiker';
+import MuiTaps from './components/MuiTaps';
 
 
 
@@ -61,10 +63,12 @@ const App = () => {
   <MuiChip />
   <MuiToolTip />
   <MuiAlert />
+  <MuiSnackBar />
+  <DateRangPiker />
+  <MuiTaps />
   */
   return (
     <Box >
-      <MuiSnackBar />
     </Box>
   );
 };
